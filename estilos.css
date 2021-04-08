@@ -1,1 +1,49 @@
-font-family: 'Pacifico', cursive; 
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap');
+
+body{
+	background-image: linear-gradient(135deg, #ffb1c0 0, #ffa8c2 12.5%, #ff9ec5 25%, #ff93c8 37.5%, #f889cc 50%, #e980d0 62.5%, #d97ad6 75%, #c576dc 87.5%, #af74e3 100%);
+	font-family: 'Pacifico', cursive; 
+    font-size: 3rem !important;
+}
+
+p {
+	font-family: 'Pacifico', cursive; 
+    color: black;
+    text-align: center;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+#texto{
+  margin: 1rem;
+  color: black;
+  font-family: 'Lora';
+  font-size: 1rem;
+}
+
+#texto1{
+  margin: 2rem;
+  color: black;
+  font-family: 'Lora';
+  font-size: 3rem;
+}
+
+#autor{
+  margin: 1rem;
+  color: black;
+  font-family: 'Pacifico', cursive;
+  font-size: 1rem;
+  text-align: center;
+}
